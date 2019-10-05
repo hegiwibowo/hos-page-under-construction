@@ -217,6 +217,10 @@ footer div {
   text-align: center;
 }
 
+footer div p {
+  color: #8d8d8d;
+}
+
 @media only screen and (min-width: 801px) {
   header {
     left: 4em;
@@ -238,6 +242,9 @@ footer div {
     left: 25%;
     -webkit-transform: translateY(-50%) translateX(50%);
             transform: translateY(-50%) translateX(50%);
+  }
+  footer div p {
+    color: #8d8d8d;
   }
 }
 
@@ -265,14 +272,14 @@ footer div {
             transform: translateY(-50%);
   }
   .decorative_squares__container .proto {
-    border: 3px solid #ffffff;
-    opacity: 0.1;
+    border: 2px solid #ffffff;
+    opacity: 0.045;
     width: 15%;
-    height: 80%;
+    height: 60%;
     float: left;
     margin-left: 1em;
-    -webkit-transform: translateX(10%);
-            transform: translateX(10%);
+    -webkit-transform: translateX(10%) skew(30deg, 0deg);
+            transform: translateX(10%) skew(30deg, 0deg);
   }
 }
 

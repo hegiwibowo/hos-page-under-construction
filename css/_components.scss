@@ -26,14 +26,15 @@
         top: 70%;
         transform: translateY(-50%);
 
+
         .proto{
-            border: 3px solid $white;
-            opacity: 0.1;
+            border: 2px solid $white;
+            opacity: 0.045;
             width: 15%;
-            height: 80%;
+            height: 60%;
             float: left;
             margin-left: 1em;
-            transform: translateX(10%);
+            transform: translateX(10%) skew(30deg, 0deg);
         }
     }
 
