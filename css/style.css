@@ -243,8 +243,8 @@ footer div p {
     -webkit-transform: translateY(-50%) translateX(50%);
             transform: translateY(-50%) translateX(50%);
   }
-  footer div p {
-    color: #8d8d8d;
+  footer div p.sub__paragraph_style {
+    color: rgba(59, 59, 59, 0.74);
   }
 }
 
